@@ -1,4 +1,5 @@
 import FeedbackItem from "./FeedbackItem"
+import Card from './shared/Card'
 
 function FeedbackList({feedback}){
     if (!feedback || feedback.length ===0){
