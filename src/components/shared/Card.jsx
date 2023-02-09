@@ -1,5 +1,5 @@
-function Card({children}){
-    return <div className='card'>
+function Card({children,reverse}){
+    return <div className='card reverse'>
         {children}
     </div>
 }
